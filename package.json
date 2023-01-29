@@ -1,0 +1,39 @@
+{
+  "name": "any-check",
+  "version": "1.0.0",
+  "description": "用于数据格式校验的工具库",
+  "main": "dist/bundle.cjs.js",
+  "module": "dist/bundle.esm.js",
+  "type": "module",
+  "keywords": [
+    "any-check",
+    "check",
+    "校验",
+    "验证"
+  ],
+  "scripts": {
+    "build": "npx rollup -c",
+    "test": "set NODE_OPTIONS=--experimental-vm-modules && jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jywud/any-check.git"
+  },
+  "author": "dayu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jywud/any-check/issues"
+  },
+  "homepage": "https://github.com/Jywud/any-check#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-terser": "^0.3.0",
+    "@types/jest": "^29.2.5",
+    "jest": "^29.3.1",
+    "jest-environment-jsdom": "^29.4.1",
+    "rollup": "^3.10.0"
+  }
+}

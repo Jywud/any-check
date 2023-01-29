@@ -1,0 +1,57 @@
+{
+  // 每次保存的时候将代码按格式进行修复
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.tabSize": 2,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // 默认使用prettier格式化支持的文件
+  "vetur.completion.autoImport": false,
+  "vetur.format.defaultFormatter.js": "prettier",
+  "vetur.format.defaultFormatter.html": "prettyhtml",
+  "vetur.format.options.tabSize": 4,
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      // 结尾无分号
+      "semi": true,
+      // 超过140个字符换行
+      "printWidth": 140,
+      // 使用单引号
+      "singleQuote": true,
+      // 无尾随逗号
+      "trailingComma": "none",
+      // 箭头函数单个参数不加分号
+      "arrowParens": "avoid"
+    },
+    "prettyhtml": {
+      "printWidth": 140
+    }
+  },
+  // 同上prettier格式化代码
+  "prettier.semi": true,
+  "prettier.printWidth": 140,
+  "prettier.trailingComma": "none",
+  "prettier.singleQuote": true,
+  "prettier.arrowParens": "avoid",
+  "security.workspace.trust.untrustedFiles": "open",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.enableSmartCommit": true,
+  "bracket-pair-colorizer-2.depreciation-notice": false
+}
