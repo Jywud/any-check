@@ -103,12 +103,11 @@ isIP(val); //验证是否IP
 isChinese(val); //验证是否中文
 isEnglish(val); //验证是否英文
 isHTML(val); //验证是否HTML标记
-isObjectEqual(val); //验证是否两个对象是否键值相同
+isObjectEqual({ a: 1 }, { a: 1 }); //验证是否两个对象是否键值相同
 isSQLXss(val); //验证是否sql攻击
 ```
 
 ## 贡献者
 
-<a href="https://github.com/Jywud/any-check/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Jywud/any-check" />
-</a>
+<!-- readme: collaborators,contributors -start -->
+<!-- readme: collaborators,contributors -end -->
