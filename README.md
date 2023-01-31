@@ -1,18 +1,30 @@
 ### any-check 介绍
 
-##### 用于前端常见的数据校验
+##### 前端常见的数据校验、类型判断、设备环境判断
 
 ## 持续更新中！！！（Continuously update code！！！）
 
 ### 代码贡献规范
 
-请查看 README_dev.md 文件
+##### 请查看 README_dev.md 文件
 
 ### 安装
 
+##### 使用 npm
+
 ```javascript
-npm install any-check
+npm install any-check --save
 ```
+
+##### 使用 yarn
+
+```javascript
+yarn add any-check
+```
+
+##### 浏览器 script 引入方式
+
+[下载链接](https://github.com/Jywud/any-check/tree/master/dist/anyCheck.min.js)
 
 ### 使用例子
 

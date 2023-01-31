@@ -6,15 +6,15 @@ export default {
   input: 'src/index.js',
   output: [
     {
-      file: 'dist/bundle.cjs.js',
+      file: 'dist/anyCheck.cjs.js',
       format: 'cjs'
     },
     {
-      file: 'dist/bundle.esm.js',
+      file: 'dist/anyCheck.esm.js',
       format: 'es'
     },
     {
-      file: 'dist/bundle.min.js',
+      file: 'dist/anyCheck.min.js',
       format: 'iife',
       name: 'anyCheck'
     }
