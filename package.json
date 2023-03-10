@@ -1,6 +1,6 @@
 {
   "name": "any-check",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "用于数据格式校验的工具库",
   "main": "dist/anyCheck.cjs.js",
   "module": "dist/anyCheck.esm.js",
@@ -11,6 +11,10 @@
     "校验",
     "验证"
   ],
+  "files": [
+    "src",
+    "dist"
+   ],
   "scripts": {
     "build": "npx rollup -c",
     "test": "set NODE_OPTIONS=--experimental-vm-modules && jest"
